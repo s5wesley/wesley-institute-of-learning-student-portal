@@ -1,0 +1,14 @@
+{
+  "name": "register-student",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.7.0",
+    "@google-cloud/functions-framework": "^3.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "scripts": {
+    "start": "functions-framework --target=registerStudent"
+  }
+}
